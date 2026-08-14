@@ -51,6 +51,8 @@ img{max-width:100%;display:block}
 .gallery-card-featured img{object-position:center center}
 .gallery-card img{width:100%;height:100%;object-fit:cover;transition:transform .35s ease}
 .gallery-card-contain img{object-fit:contain;background:#eef3f0}
+.gallery-card-exploration img{object-fit:contain;background:#eef3f0;padding:14px 14px 90px;box-sizing:border-box;transform:none}
+.gallery-card-exploration:hover img{transform:none}
 .gallery-card:hover img{transform:scale(1.025)}
 .gallery-card figcaption{position:absolute;left:0;right:0;bottom:0;padding:44px 20px 18px;background:linear-gradient(transparent,rgba(0,43,33,.9));color:white}
 .gallery-card figcaption strong,.gallery-card figcaption span{display:block}
